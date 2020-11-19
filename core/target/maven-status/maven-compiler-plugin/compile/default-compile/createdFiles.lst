@@ -1,0 +1,8 @@
+META-INF/spring-configuration-metadata.json
+learning/microservice/core/repository/user/UserRepository.class
+learning/microservice/core/property/JwtConfiguration.class
+learning/microservice/core/model/note/Note.class
+learning/microservice/core/model/user/User.class
+learning/microservice/core/model/user/User$UserBuilder.class
+learning/microservice/core/property/JwtConfiguration$Header.class
+learning/microservice/core/repository/note/NoteRepository.class

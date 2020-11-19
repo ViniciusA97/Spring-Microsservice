@@ -1,0 +1,37 @@
+
+
+spring:
+
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+          socketFactory:
+            port: 465
+    username: test.project2121@gmail.com
+    password: senha2121
+
+  application:
+    name: mail
+
+server:
+  port: 8084
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+    register-with-eureka: true
